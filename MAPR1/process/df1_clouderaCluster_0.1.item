@@ -3,6 +3,7 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="hadooptest_NameNodeUri" prompt="hadooptest_NameNodeUri?" promptNeeded="false" repositoryContextId="_Wx9xsIYWEeipv7QrXHqDyg" type="id_String" value="hdfs://quickstart.cloudera:8020"/>
     <contextParameter comment="" name="hadooptest_User" prompt="hadooptest_User?" promptNeeded="false" repositoryContextId="_Wx9xsIYWEeipv7QrXHqDyg" type="id_String" value="cloudera"/>
+    <contextParameter comment="" name="hadooptest_HDFS_HdfsUser" prompt="hadooptest_HDFS_HdfsUser?" promptNeeded="false" repositoryContextId="_nARhcIYYEeipv7QrXHqDyg" type="id_String" value="cloudera"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
@@ -133,7 +134,7 @@
     <elementParameter field="TEXT" name="PRINCIPAL" value="&quot;hdfs&quot;" show="false"/>
     <elementParameter field="FILE" name="KEYTAB_PATH" value="&quot;/tmp/hdfs.headless.keytab&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_MAPRTICKET" value="false" show="false"/>
-    <elementParameter field="TEXT" name="USERNAME" value="&quot;cloudera&quot;"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.hadooptest_HDFS_HdfsUser"/>
     <elementParameter field="TEXT" name="GROUP" value="&quot;supergroup&quot;" show="false"/>
     <elementParameter field="PASSWORD" name="MAPRTICKET_PASSWORD" value="0RMsyjmybrE=" show="false"/>
     <elementParameter field="TEXT" name="MAPRTICKET_CLUSTER" value="&quot;demo.mapr.com&quot;" show="false"/>
