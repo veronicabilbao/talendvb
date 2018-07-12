@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_Wyf9MIYWEeipv7QrXHqDyg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_Wyf9MYYWEeipv7QrXHqDyg" comment="" name="hadooptest_ResourceManager" prompt="hadooptest_ResourceManager?" promptNeeded="false" type="id_String" value="quickstart.cloudera:8032"/>
+  <contextParameter xmi:id="_Wyf9MoYWEeipv7QrXHqDyg" comment="" name="hadooptest_NameNodeUri" prompt="hadooptest_NameNodeUri?" promptNeeded="false" type="id_String" value="hdfs://quickstart.cloudera:8020"/>
+  <contextParameter xmi:id="_Wyf9M4YWEeipv7QrXHqDyg" comment="" name="hadooptest_StagingDirectory" prompt="hadooptest_StagingDirectory?" promptNeeded="false" type="id_String" value="/user"/>
+  <contextParameter xmi:id="_Wyf9NIYWEeipv7QrXHqDyg" comment="" name="hadooptest_User" prompt="hadooptest_User?" promptNeeded="false" type="id_String" value="cloudera"/>
+  <contextParameter xmi:id="_Wyf9NYYWEeipv7QrXHqDyg" comment="" name="hadooptest_ResourceManagerScheduler" prompt="hadooptest_ResourceManagerScheduler?" promptNeeded="false" type="id_String" value="quickstart.cloudera:8030"/>
+  <contextParameter xmi:id="_Wyf9NoYWEeipv7QrXHqDyg" comment="" name="hadooptest_JobHistory" prompt="hadooptest_JobHistory?" promptNeeded="false" type="id_String" value="quickstart.cloudera:10020"/>
+</talendfile:ContextType>
