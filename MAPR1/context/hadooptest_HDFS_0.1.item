@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_nAlDcIYYEeipv7QrXHqDyg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_nAlDcYYYEeipv7QrXHqDyg" comment="" name="hadooptest_HDFS_HdfsUser" prompt="hadooptest_HDFS_HdfsUser?" promptNeeded="false" type="id_String" value="cloudera"/>
+  <contextParameter xmi:id="_nAlDcoYYEeipv7QrXHqDyg" comment="" name="hadooptest_HDFS_HdfsRowSeparator" prompt="hadooptest_HDFS_HdfsRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;"/>
+  <contextParameter xmi:id="_nAlDc4YYEeipv7QrXHqDyg" comment="" name="hadooptest_HDFS_HdfsFileSeparator" prompt="hadooptest_HDFS_HdfsFileSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;"/>
+</talendfile:ContextType>
