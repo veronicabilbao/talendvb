@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_pcJuAIYYEeipv7QrXHqDyg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_pcJuAYYYEeipv7QrXHqDyg" comment="" name="hadooptest_HBASE_Znode_Parent" prompt="hadooptest_HBASE_Znode_Parent?" promptNeeded="false" type="id_String" value="/hbase"/>
+  <contextParameter xmi:id="_pcJuAoYYEeipv7QrXHqDyg" comment="" name="hadooptest_HBASE_Server" prompt="hadooptest_HBASE_Server?" promptNeeded="false" type="id_String" value="quickstart.cloudera"/>
+  <contextParameter xmi:id="_pcJuA4YYEeipv7QrXHqDyg" comment="" name="hadooptest_HBASE_Port" prompt="hadooptest_HBASE_Port?" promptNeeded="false" type="id_String" value="2181"/>
+  <contextParameter xmi:id="_pcJuBIYYEeipv7QrXHqDyg" comment="" name="hadooptest_HBASE_Schema" prompt="hadooptest_HBASE_Schema?" promptNeeded="false" type="id_String" value=""/>
+</talendfile:ContextType>
