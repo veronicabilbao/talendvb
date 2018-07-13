@@ -242,7 +242,7 @@
         <mapperTableEntries name="quantity" expression="row2.quantity " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="price" expression="row2.price " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="discount" expression="row2.discount " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="total" expression="((row2.quantity * row2.price) * (100-row2.discount)) " type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="total" expression="new BigDecimal(((row2.quantity * row2.price) * (100-row2.discount)) / 100).movePointLeft(2) " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="order_date" expression="row2.order_date " type="id_Date" nullable="true"/>
         <mapperTableEntries name="shipped" expression="row2.order_date" type="id_Date" nullable="true"/>
       </outputTables>
