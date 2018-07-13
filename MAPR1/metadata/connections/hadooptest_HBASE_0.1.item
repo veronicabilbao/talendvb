@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_YbVjQIYWEeipv7QrXHqDyg" name="hadooptest_HBASE" id="_YZxdAIYWEeipv7QrXHqDyg" label="hadooptest_HBASE" dataPackage="_YbVjXoYWEeipv7QrXHqDyg" ContextMode="true" ContextId="_pb094IYYEeipv7QrXHqDyg" contextName="Default" DatabaseType="HBase" URL="127.0.0.1" Port="context.hadooptest_HBASE_Port" Username="context.hadooptest_User" ServerName="context.hadooptest_HBASE_Server" SID="HBase" SqlSynthax="Sintaxis SQL" DbmsId="mysql_id" ProductId="HBASE" StandardSQL="true" UiSchema="context.hadooptest_HBASE_Schema">
     <taggedValue xmi:id="_omyzUIYYEeipv7QrXHqDyg" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_pmhyAIYYEeipv7QrXHqDyg" tag="Status" value=""/>
@@ -40,5 +40,140 @@
     <parameters xmi:id="_olRJUIYYEeipv7QrXHqDyg" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
     <parameters xmi:id="_pcco8IYYEeipv7QrXHqDyg" key="CONN_PARA_KEY_HBASE_PROPERTIES" value=""/>
   </TalendMetadata:DatabaseConnection>
-  <orgomg.cwm.resource.relational:Catalog xmi:id="_YbVjXoYWEeipv7QrXHqDyg" name="HBase" dataManager="_YbVjQIYWEeipv7QrXHqDyg"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_YbVjXoYWEeipv7QrXHqDyg" name="HBase" dataManager="_YbVjQIYWEeipv7QrXHqDyg">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_qtbZUYbAEeiFs6OuNP_Wtg" name="RawData" id="_qtbZUIbAEeiFs6OuNP_Wtg" label="RawData" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_qtcAYIbAEeiFs6OuNP_Wtg" name="Apr" label="Apr" talendType="id_String">
+        <taggedValue xmi:id="_qtcAYYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qtr4AIbAEeiFs6OuNP_Wtg" name="Feb" label="Feb" talendType="id_String">
+        <taggedValue xmi:id="_qtr4AYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qvOwIIbAEeiFs6OuNP_Wtg" name="Dec" label="Dec" talendType="id_String">
+        <taggedValue xmi:id="_qvPXMIbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qwNnkIbAEeiFs6OuNP_Wtg" name="Jan" label="Jan" talendType="id_String">
+        <taggedValue xmi:id="_qwNnkYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qwc4IIbAEeiFs6OuNP_Wtg" name="Aug" label="Aug" talendType="id_String">
+        <taggedValue xmi:id="_qwc4IYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qwpFYIbAEeiFs6OuNP_Wtg" name="Oct" label="Oct" talendType="id_String">
+        <taggedValue xmi:id="_qwpFYYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qwyPUIbAEeiFs6OuNP_Wtg" name="Sep" label="Sep" talendType="id_String">
+        <taggedValue xmi:id="_qwyPUYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qxJbsIbAEeiFs6OuNP_Wtg" name="customerID" label="customerID" talendType="id_String">
+        <taggedValue xmi:id="_qxJbsYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Id"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qxQwcIbAEeiFs6OuNP_Wtg" name="Jul" label="Jul" talendType="id_String">
+        <taggedValue xmi:id="_qxQwcYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qxc9sIbAEeiFs6OuNP_Wtg" name="Jun" label="Jun" talendType="id_String">
+        <taggedValue xmi:id="_qxc9sYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qxrnMIbAEeiFs6OuNP_Wtg" name="Mar" label="Mar" talendType="id_String">
+        <taggedValue xmi:id="_qxrnMYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qx8s8IbAEeiFs6OuNP_Wtg" name="May" label="May" talendType="id_String">
+        <taggedValue xmi:id="_qx8s8YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_qyYKwIbAEeiFs6OuNP_Wtg" name="Nov" label="Nov" talendType="id_String">
+        <taggedValue xmi:id="_qyYKwYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q-15cIbAEeiFs6OuNP_Wtg" name="Apr" label="Apr" talendType="id_String">
+        <taggedValue xmi:id="_q-15cYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q--cUIbAEeiFs6OuNP_Wtg" name="Aug" label="Aug" talendType="id_String">
+        <taggedValue xmi:id="_q--cUYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q_G_MIbAEeiFs6OuNP_Wtg" name="Dec" label="Dec" talendType="id_String">
+        <taggedValue xmi:id="_q_G_MYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q_Ns4IbAEeiFs6OuNP_Wtg" name="Feb" label="Feb" talendType="id_String">
+        <taggedValue xmi:id="_q_Ns4YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q_WPwIbAEeiFs6OuNP_Wtg" name="Jan" label="Jan" talendType="id_String">
+        <taggedValue xmi:id="_q_WPwYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q_sOAIbAEeiFs6OuNP_Wtg" name="Oct" label="Oct" talendType="id_String">
+        <taggedValue xmi:id="_q_sOAYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q_0w4IbAEeiFs6OuNP_Wtg" name="Sep" label="Sep" talendType="id_String">
+        <taggedValue xmi:id="_q_0w4YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_q_6QcIbAEeiFs6OuNP_Wtg" name="customerID" label="customerID" talendType="id_String">
+        <taggedValue xmi:id="_q_6QcYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Id"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rAAXEIbAEeiFs6OuNP_Wtg" name="Jul" label="Jul" talendType="id_String">
+        <taggedValue xmi:id="_rAAXEYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rAI58IbAEeiFs6OuNP_Wtg" name="Jun" label="Jun" talendType="id_String">
+        <taggedValue xmi:id="_rAI58YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rASq8IbAEeiFs6OuNP_Wtg" name="Mar" label="Mar" talendType="id_String">
+        <taggedValue xmi:id="_rASq8YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rAffQIbAEeiFs6OuNP_Wtg" name="May" label="May" talendType="id_String">
+        <taggedValue xmi:id="_rAffQYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rAthsIbAEeiFs6OuNP_Wtg" name="Nov" label="Nov" talendType="id_String">
+        <taggedValue xmi:id="_rAthsYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_rjrr4YbAEeiFs6OuNP_Wtg" name="datawithNulls" id="_rjrr4IbAEeiFs6OuNP_Wtg" label="datawithNulls" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_rjrr4obAEeiFs6OuNP_Wtg" name="Apr" label="Apr" talendType="id_String">
+        <taggedValue xmi:id="_rjrr44bAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MwIbAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rj2D8IbAEeiFs6OuNP_Wtg" name="Aug" label="Aug" talendType="id_String">
+        <taggedValue xmi:id="_rj2D8YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MwYbAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rkdH8IbAEeiFs6OuNP_Wtg" name="Dec" label="Dec" talendType="id_String">
+        <taggedValue xmi:id="_rkdH8YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MwobAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rkrKYIbAEeiFs6OuNP_Wtg" name="Feb" label="Feb" talendType="id_String">
+        <taggedValue xmi:id="_rkrKYYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77Mw4bAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rkztQIbAEeiFs6OuNP_Wtg" name="Jan" label="Jan" talendType="id_String">
+        <taggedValue xmi:id="_rkztQYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MxIbAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rk8QIIbAEeiFs6OuNP_Wtg" name="Oct" label="Oct" talendType="id_String">
+        <taggedValue xmi:id="_rk8QIYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MxYbAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rlN88IbAEeiFs6OuNP_Wtg" name="Sep" label="Sep" talendType="id_String">
+        <taggedValue xmi:id="_rlN88YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MxobAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rlVRsIbAEeiFs6OuNP_Wtg" name="customerID" label="customerID" talendType="id_String">
+        <taggedValue xmi:id="_rlVRsYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Id"/>
+        <initialValue xmi:id="_r77Mx4bAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rljUIIbAEeiFs6OuNP_Wtg" name="Jul" label="Jul" talendType="id_String">
+        <taggedValue xmi:id="_rljUIYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MyIbAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rluTQIbAEeiFs6OuNP_Wtg" name="Jun" label="Jun" talendType="id_String">
+        <taggedValue xmi:id="_rluTQYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MyYbAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rl-x8IbAEeiFs6OuNP_Wtg" name="Mar" label="Mar" talendType="id_String">
+        <taggedValue xmi:id="_rl-x8YbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MyobAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rmJxEIbAEeiFs6OuNP_Wtg" name="May" label="May" talendType="id_String">
+        <taggedValue xmi:id="_rmJxEYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77My4bAEeiFs6OuNP_Wtg"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_rmZBoIbAEeiFs6OuNP_Wtg" name="Nov" label="Nov" talendType="id_String">
+        <taggedValue xmi:id="_rmZBoYbAEeiFs6OuNP_Wtg" tag="COLUMN FAMILY" value="Date"/>
+        <initialValue xmi:id="_r77MzIbAEeiFs6OuNP_Wtg"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>
