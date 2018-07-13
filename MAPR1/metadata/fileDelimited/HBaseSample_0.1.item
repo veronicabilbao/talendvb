@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_wjo_wIa1EeiFs6OuNP_Wtg" name="HBaseSample" dataPackage="_wjo_wYa1EeiFs6OuNP_Wtg" Server="Localhost 127.0.0.1" FilePath="/run/media/root/DCAE3E74AE3E4774/Talend_6.4.1/cmdline/studio/workspace/HBase_sample.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_wjo_wYa1EeiFs6OuNP_Wtg" name="default" dataManager="_wjo_wIa1EeiFs6OuNP_Wtg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wjo_woa1EeiFs6OuNP_Wtg" id="_gHG74Ia1EeiFs6OuNP_Wtg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_w4a1EeiFs6OuNP_Wtg" label="customerID" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_xIa1EeiFs6OuNP_Wtg" label="Jan" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_xYa1EeiFs6OuNP_Wtg" label="Feb" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_xoa1EeiFs6OuNP_Wtg" label="Mar" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_x4a1EeiFs6OuNP_Wtg" label="Apr" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_yIa1EeiFs6OuNP_Wtg" label="May" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_yYa1EeiFs6OuNP_Wtg" label="Jun" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_yoa1EeiFs6OuNP_Wtg" label="Jul" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_y4a1EeiFs6OuNP_Wtg" label="Aug" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_zIa1EeiFs6OuNP_Wtg" label="Sep" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_zYa1EeiFs6OuNP_Wtg" label="Oct" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_zoa1EeiFs6OuNP_Wtg" label="Nov" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wjo_z4a1EeiFs6OuNP_Wtg" label="Dec" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
