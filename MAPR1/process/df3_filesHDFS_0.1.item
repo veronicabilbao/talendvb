@@ -164,8 +164,8 @@
   <node componentName="tDuplicateRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDuplicateRow_1" show="false"/>
     <elementParameter field="TEXT" name="PERCENTAGE_DUPLICATES" value="40"/>
-    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION_NAME" value="BERNOULLI"/>
-    <elementParameter field="TEXT" name="AVERAGE_GROUP_SIZE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="DISTRIBUTION_NAME" value="GEOMETRIC"/>
+    <elementParameter field="TEXT" name="AVERAGE_GROUP_SIZE" value="2"/>
     <elementParameter field="TABLE" name="MODIF_TABLE"/>
     <elementParameter field="TEXT" name="RANDOM_SEED" value="12345678"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
