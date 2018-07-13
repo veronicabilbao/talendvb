@@ -274,8 +274,8 @@
   <node componentName="tSortRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSortRow_1" show="false"/>
     <elementParameter field="TABLE" name="CRITERIA">
-      <elementValue elementRef="COLNAME" value="id"/>
-      <elementValue elementRef="SORT" value="num"/>
+      <elementValue elementRef="COLNAME" value="cust_name"/>
+      <elementValue elementRef="SORT" value="alpha"/>
       <elementValue elementRef="ORDER" value="asc"/>
     </elementParameter>
     <elementParameter field="CHECK" name="EXTERNAL" value="false"/>
